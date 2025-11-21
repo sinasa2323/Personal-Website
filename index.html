@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+/>
+
+    <script type="module" crossorigin src="/assets/index-B1AqyGrd.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BmBCVBuI.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-[#141C27] flex fixed top-0 left-1/2 z-50 -translate-x-1/2 w-full md:w-[80%] h-20 text-white *:h-full  justify-between items-center">
+        <div class="flex items-center" >
+          <img src="img/logo.png" alt="sina">
+          <h2 class="ml-2 md:ml-5 font-semibold text-xl lg:text-3xl">PORTFOLIO</h2>
+        </div>
+        <div class="items-center hidden md:flex">
+          <ul class="flex h-full items-center *:px-5 *:h-full *:flex *:items-center *:font-semibold *:hover:text-[#55E6A5] *:duration-300 *:cursor-pointer">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="min-w-[75px]  bg-[#55E6A5] flex justify-center items-center">
+          <button id="mobileMenuBtn" class="cursor-pointer w-full h-full">
+            <i class="mdi mdi-menu text-4xl text-black"></i>
+          </button>
+        </div>
+    </header>
+    <!-- END Header -->
+
+    
+      <!-- Mobile Menu -->
+      <nav
+            id="mobileMenu"
+            class="fixed top-20 left-0 w-full bg-[#141C27] text-white flex flex-col items-center gap-4 py-4
+                  transform -translate-y-full opacity-0 pointer-events-none
+                  transition-all duration-300 md:hidden z-40"
+            >
+            <a href="#home" class="hover:text-[#55E6A5] duration-300">HOME</a>
+            <a href="#about" class="hover:text-[#55E6A5] duration-300">ABOUT</a>
+            <a href="#skills" class="hover:text-[#55E6A5] duration-300">SKILLS</a>
+            <a href="#projects" class="hover:text-[#55E6A5] duration-300">PROJECTS</a>
+            <a href="#contact" class="hover:text-[#55E6A5] duration-300">CONTACT</a>
+      </nav>
+
+    <!-- End Mobile Menu -->
+
+    <!-- Main -->
+
+    <main class="text-white w-full bg-[#02050A]">
+
+      <!-- HERO SECTION -->
+      <section id="home" class="bg-[url('/img/banner-scaled.jpg')] pt-20 bg-cover bg-center row min-h-screen">
+       <div class="flex flex-wrap w-[80%] mx-auto flex-col-reverse sm:flex-row pt-15 md:pt-0">
+        <!-- left -->
+        <div class="w-full md:w-1/2 pb-10">
+          <h2 class="text-2xl xl:text-5xl py-12 font-bold">HI, I'M Sina Sayah  <br>
+           <span id="typing" class="text-[#55E6A5]"></span>
+          </h2>
+          <p class="text-[#A2A2A2] md:text-justify pr-5">I'm a Front-End Developer specializing in designing and implementing efficient, standards-driven, and user-centric interfaces. By leveraging modern web technologies, I focus on delivering smooth, responsive, and high-quality user experiences. I am committed to continuous learning, enhancing my skills, and contributing effectively to professional projects.</p>
+         <a href="#"> <button class="text-black cursor-pointer bg-[#55E6A5] hover:bg-[#141C27] hover:text-white duration-300 mt-5 md:mt-20 px-12 py-6 font-semibold">Download CV <span class="mdi mdi-download"></span></button></a>
+        </div>
+        <!-- Right -->
+        <div class="w-full md:w-1/2 flex md:flex justify-center items-center">
+         <div class=" w-[200px] md:w-[300px] lg:w-[400px] md:z-20 md:absolute">
+          <img src="/img/avatar.png" alt="avatar" class="w-full h-full">
+         </div>
+         <div id="avatarFrame" class="w-60 md:w-[360px] lg:w-[460px] absolute">
+          <img src="/img/banner_shape.png" alt="">
+         </div>
+        </div>
+       </div>
+      </section>
+      <!-- END HERO SECTION -->
+
+      <!-- ABOUT -->
+      <section id="about" class="row bg-[#02050A] py-32">
+       <div class="flex flex-wrap w-[80%] mx-auto">
+        <!-- left -->
+        <div class="w-full md:w-1/2 pb-5 md:pb-0" data-aos="fade-right" data-aos-delay="150">
+          <img src="/img/about.png" alt="avatar">
+        </div>
+        <!-- Right -->
+        <div class="w-full md:w-1/2" data-aos="fade-right" data-aos-delay="150">
+          <h2 class="text-[#55E6A5] text-3xl mb-8">ABOUT ME</h2>
+          <p class="text-[#A2A2A2] mb-6">
+            I really enjoy front-end because it’s a mix of problem-solving and improving the user experience.
+            I like taking a rough idea or design and turning it into something that looks good and feels easy to use.
+            I try to keep my code clean, understandable, and easy to maintain, and I’m always looking to learn something new
+            from the projects I work on and the people I work with.
+          </p>
+          
+          <table class="border-collapse">
+            <tr class="h-12">
+              <td class="font-semibold">Name:</td>
+              <td class="text-[#A2A2A2] font-semibold pl-8">Sina Sayah</td>
+            </tr>
+            <tr class="h-12">
+              <td class="font-semibold">Date of birth:</td>
+              <td class="text-[#A2A2A2] font-semibold pl-8">May 08, 2000</td>
+            </tr>
+            <tr class="h-12">
+              <td class="font-semibold">Address:</td>
+              <td class="text-[#A2A2A2] font-semibold pl-8">Tehran, Iran</td>
+            </tr>
+            <tr class="h-12">
+              <td class="font-semibold">Email:</td>
+              <td class="text-[#A2A2A2] font-semibold pl-8">sinasa2323@gmail.com</td>
+            </tr>
+            <tr class="h-12">
+              <td class="font-semibold">Phone:</td>
+              <td class="text-[#A2A2A2] font-semibold pl-8">+98-930-983-6790</td>
+            </tr>
+
+            <!-- Social Media -->
+            <tr class="h-12">
+              <td class="font-semibold">Social media:</td>
+              <td class="pl-8 flex items-center gap-4">
+                <a href="https://github.com/sinasa2323" class="text-2xl text-[#A2A2A2] hover:text-[#55E6A5] duration-300">
+                  <i class="mdi mdi-github"></i>
+                </a>
+                <a href="www.linkedin.com/in/sina-sayah-784bb8398" class="text-2xl text-[#A2A2A2] hover:text-[#55E6A5] duration-300">
+                  <i class="mdi mdi-linkedin"></i>
+                </a>
+              </td>
+            </tr>
+          </table>
+
+          <a href="#"> <button class="text-black cursor-pointer bg-[#55E6A5] hover:bg-[#141C27] hover:text-white duration-300 mt-5 px-12 py-6 font-semibold">Download CV <span class="mdi mdi-download"></span></button></a>
+          
+        </div>
+       </div>
+      </section>
+
+      <!-- END ABOUT -->
+
+      
+      <!-- Skills -->
+      <section id="skills" class="row py-10 bg-[#02050A]">
+        <div class="flex flex-wrap w-[80%] mx-auto">
+          <h2 class="w-full text-center text-[#55E6A5] text-5xl mb-20" data-aos="zoom-in">My Skills</h2>
+         <div class="row justify-center gap-8">
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">HTML</h3>
+            <div
+              class="skill-bar h-2 bg-[#55E6A5] rounded-r-full"
+              data-percent="90"
+              style="width: 0%"
+            ></div>
+          </div>
+          
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">CSS</h3>
+            <div
+              class="skill-bar h-2 bg-[#55E6A5] rounded-r-full"
+              data-percent="90"
+              style="width: 0%"
+            ></div>
+          </div>
+          
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">Bootstrap</h3>
+            <div
+              class="skill-bar h-2 bg-[#55E6A5] rounded-r-full"
+              data-percent="85"
+              style="width: 0%"
+            ></div>
+          </div>
+          
+         
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">TailwindCSS</h3>
+            <div class="skill-bar h-2 bg-[#55E6A5] rounded-r-full" data-percent="90" style="width: 0%"></div>
+          </div>
+          
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">JavaScript (ES6+)</h3>
+            <div class="skill-bar h-2 bg-[#55E6A5] rounded-r-full" data-percent="85" style="width: 0%"></div>
+          </div>
+          
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">React</h3>
+            <div class="skill-bar h-2 bg-[#55E6A5] rounded-r-full" data-percent="70" style="width: 0%"></div>
+          </div>
+          
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">Next JS</h3>
+            <div class="skill-bar h-2 bg-[#55E6A5] rounded-r-full" data-percent="70" style="width: 0%"></div>
+          </div>
+          
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">TypeScript</h3>
+            <div class="skill-bar h-2 bg-[#55E6A5] rounded-r-full" data-percent="65" style="width: 0%"></div>
+          </div>
+          
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">Zustand</h3>
+            <div class="skill-bar h-2 bg-[#55E6A5] rounded-r-full" data-percent="80" style="width: 0%"></div>
+          </div>
+          
+          <div class="w-full md:w-[45%] bg-[#151C25]">
+            <h3 class="w-full font-semibold px-5 pt-3 pb-5">Git - GitHub</h3>
+            <div class="skill-bar h-2 bg-[#55E6A5] rounded-r-full" data-percent="80" style="width: 0%"></div>
+          </div>
+          
+         </div>
+        </div>
+      </section>
+
+      <!-- End Skill  -->
+
+               <!-- Projects -->
+      <section id="projects" class="row py-18 bg-[#02050A]">
+        <div class="flex flex-wrap w-[80%] mx-auto">
+          <h2 class="w-full text-center text-[#55E6A5] text-5xl mb-20" data-aos="zoom-in">My Projects</h2>
+      
+          <div class="w-full flex flex-wrap gap-8 justify-center">
+
+            <!-- Project Card 1 - Admin Panel -->
+            <a href="https://admin-panel-next-mocha.vercel.app/login" target="_blank" data-aos="fade-up"
+               class="group w-[30%] min-w-[260px] bg-[#151C25] rounded-lg overflow-hidden shadow-lg 
+                      hover:-translate-y-2 duration-300 hover:bg-[#1D2835] cursor-pointer">
+              <img src="/img/Admin-Panel.png" alt="Admin Panel" class="w-full h-48 object-cover">
+              <div class="p-5 flex flex-col gap-3">
+                <h3 class="text-xl font-semibold group-hover:text-[#55E6A5] duration-300">
+                  Admin Panel
+                </h3>
+                <p class="text-[#A2A2A2] text-sm group-hover:text-white duration-300">
+                  A sample admin dashboard built with Next.js, MUI, and Zustand, showcasing state management,
+                  reusable UI components, and a clean panel layout.
+                </p>
+                <div class="mt-2 flex justify-end items-center gap-2">
+                  <span class="text-sm text-[#A2A2A2] group-hover:text-[#55E6A5] duration-300">
+                    View Project
+                  </span>
+                  <i class="mdi mdi-open-in-new text-2xl text-[#55E6A5] group-hover:text-white duration-300"></i>
+                </div>
+              </div>
+            </a>
+      
+            <!-- Project Card 2 - Nexi Shop -->
+            <a href="https://nexi-shop.vercel.app/" target="_blank" data-aos="fade-up"
+               class="group w-[30%] min-w-[260px] bg-[#151C25] rounded-lg overflow-hidden shadow-lg 
+                      hover:-translate-y-2 duration-300 hover:bg-[#1D2835] cursor-pointer">
+              <img src="/img/Shop.png" alt="Nexi Shop" class="w-full h-48 object-cover">
+              <div class="p-5 flex flex-col gap-3">
+                <h3 class="text-xl font-semibold group-hover:text-[#55E6A5] duration-300">
+                  Nexi Shop
+                </h3>
+                <p class="text-[#A2A2A2] text-sm group-hover:text-white duration-300">
+                  An online shop built with React, React Router, and Tailwind CSS, featuring user registration,
+                  product listing, and a functional shopping cart experience.
+                </p>
+                <div class="mt-2 flex justify-end items-center gap-2">
+                  <span class="text-sm text-[#A2A2A2] group-hover:text-[#55E6A5] duration-300">
+                    View Project
+                  </span>
+                  <i class="mdi mdi-open-in-new text-2xl text-[#55E6A5] group-hover:text-white duration-300"></i>
+                </div>
+              </div>
+            </a>
+      
+            <!-- Project Card 3 - TodoList -->
+            <a href="https://sinasa2323.github.io/TodoList/" target="_blank" data-aos="fade-up"
+               class="group w-[30%] min-w-[260px] bg-[#151C25] rounded-lg overflow-hidden shadow-lg 
+                      hover:-translate-y-2 duration-300 hover:bg-[#1D2835] cursor-pointer">
+              <img src="/img/TodoList.png" alt="TodoList" class="w-full h-48 object-cover">
+              <div class="p-5 flex flex-col gap-3">
+                <h3 class="text-xl font-semibold group-hover:text-[#55E6A5] duration-300">
+                  TodoList
+                </h3>
+                <p class="text-[#A2A2A2] text-sm group-hover:text-white duration-300">
+                  A to-do application styled with Tailwind CSS and powered by JavaScript,
+                  supporting task management with a built-in dark mode toggle.
+                </p>
+                <div class="mt-2 flex justify-end items-center gap-2">
+                  <span class="text-sm text-[#A2A2A2] group-hover:text-[#55E6A5] duration-300">
+                    View Project
+                  </span>
+                  <i class="mdi mdi-open-in-new text-2xl text-[#55E6A5] group-hover:text-white duration-300"></i>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 4 - Nikan Sepid -->
+            <a href="https://nikan-sepid.vercel.app/" target="_blank" data-aos="fade-up"
+               class="group w-[30%] min-w-[260px] bg-[#151C25] rounded-lg overflow-hidden shadow-lg 
+                      hover:-translate-y-2 duration-300 hover:bg-[#1D2835] cursor-pointer">
+              <img src="/img/Nikan-Sepid.png" alt="Nikan Sepid" class="w-full h-48 object-cover">
+              <div class="p-5 flex flex-col gap-3">
+                <h3 class="text-xl font-semibold group-hover:text-[#55E6A5] duration-300">
+                  Nikan Sepid
+                </h3>
+                <p class="text-[#A2A2A2] text-sm group-hover:text-white duration-300">
+                  A Farsi website for a physiotherapy center, built with React and Tailwind CSS,
+                  focusing on clear service presentation and a clean, accessible layout.
+                </p>
+                <div class="mt-2 flex justify-end items-center gap-2">
+                  <span class="text-sm text-[#A2A2A2] group-hover:text-[#55E6A5] duration-300">
+                    View Project
+                  </span>
+                  <i class="mdi mdi-open-in-new text-2xl text-[#55E6A5] group-hover:text-white duration-300"></i>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 5 - Music Player -->
+            <a href="https://nexi-player.vercel.app/" target="_blank" data-aos="fade-up"
+               class="group w-[30%] min-w-[260px] bg-[#151C25] rounded-lg overflow-hidden shadow-lg 
+                      hover:-translate-y-2 duration-300 hover:bg-[#1D2835] cursor-pointer">
+              <img src="/img/music-player.png" alt="Music Player" class="w-full h-48 object-cover">
+              <div class="p-5 flex flex-col gap-3">
+                <h3 class="text-xl font-semibold group-hover:text-[#55E6A5] duration-300">
+                  Music Player
+                </h3>
+                <p class="text-[#A2A2A2] text-sm group-hover:text-white duration-300">
+                  A music player-style application built with React and Tailwind CSS,
+                  including core playback controls and interactions similar to a real player.
+                </p>
+                <div class="mt-2 flex justify-end items-center gap-2">
+                  <span class="text-sm text-[#A2A2A2] group-hover:text-[#55E6A5] duration-300">
+                    View Project
+                  </span>
+                  <i class="mdi mdi-open-in-new text-2xl text-[#55E6A5] group-hover:text-white duration-300"></i>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 6 - Pesto Restaurant -->
+            <a href="https://sinasa2323.github.io/pesto-restaurant/" target="_blank" data-aos="fade-up"
+               class="group w-[30%] min-w-[260px] bg-[#151C25] rounded-lg overflow-hidden shadow-lg 
+                      hover:-translate-y-2 duration-300 hover:bg-[#1D2835] cursor-pointer">
+              <img src="/img/Pesto.png" alt="Pesto Restaurant" class="w-full h-48 object-cover">
+              <div class="p-5 flex flex-col gap-3">
+                <h3 class="text-xl font-semibold group-hover:text-[#55E6A5] duration-300">
+                  Pesto Restaurant
+                </h3>
+                <p class="text-[#A2A2A2] text-sm group-hover:text-white duration-300">
+                  A restaurant and café website designed with JavaScript and Bootstrap,
+                  focusing on menu presentation, sections, and a modern responsive layout.
+                </p>
+                <div class="mt-2 flex justify-end items-center gap-2">
+                  <span class="text-sm text-[#A2A2A2] group-hover:text-[#55E6A5] duration-300">
+                    View Project
+                  </span>
+                  <i class="mdi mdi-open-in-new text-2xl text-[#55E6A5] group-hover:text-white duration-300"></i>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 7 - Porsche Design Shop -->
+            <a href="https://sinasa2323.github.io/porscheDesignShop/" target="_blank" data-aos="fade-up"
+               class="group w-[30%] min-w-[260px] bg-[#151C25] rounded-lg overflow-hidden shadow-lg 
+                      hover:-translate-y-2 duration-300 hover:bg-[#1D2835] cursor-pointer">
+              <img src="/img/PorcheDesign.png" alt="Porsche Design Shop" class="w-full h-48 object-cover">
+              <div class="p-5 flex flex-col gap-3">
+                <h3 class="text-xl font-semibold group-hover:text-[#55E6A5] duration-300">
+                  Porsche Design Shop
+                </h3>
+                <p class="text-[#A2A2A2] text-sm group-hover:text-white duration-300">
+                  An online shop template styled with Tailwind CSS, inspired by Porsche Design aesthetics,
+                  focusing on clean product grids and a modern e-commerce layout.
+                </p>
+                <div class="mt-2 flex justify-end items-center gap-2">
+                  <span class="text-sm text-[#A2A2A2] group-hover:text-[#55E6A5] duration-300">
+                    View Project
+                  </span>
+                  <i class="mdi mdi-open-in-new text-2xl text-[#55E6A5] group-hover:text-white duration-300"></i>
+                </div>
+              </div>
+            </a>
+
+            <!-- More Projects Card -->
+            <a href="https://github.com/sinasa2323?tab=repositories" target="_blank" data-aos="fade-up"
+               class="group w-[30%] min-w-[260px] bg-[#151C25] rounded-lg overflow-hidden shadow-lg 
+                      hover:-translate-y-2 duration-300 flex flex-col items-center justify-center gap-4
+                      border border-dashed border-[#55E6A5] cursor-pointer text-center hover:bg-[#1D2835]">
+              <i class="mdi mdi-dots-horizontal-circle-outline text-5xl text-[#55E6A5] group-hover:text-white duration-300"></i>
+              <h3 class="text-xl font-semibold group-hover:text-[#55E6A5] duration-300">More Projects</h3>
+              <p class="text-[#A2A2A2] text-sm px-6 group-hover:text-white duration-300">
+                Explore more of my work and side projects.
+              </p>
+            </a>
+      
+          </div>
+        </div>
+      </section>
+
+      <!-- END Projects -->
+    
+
+      <!-- Subscribe Section -->
+
+      <section id="contact" class="h-[500px] w-full bg-[url('/img/subscribe-scaled.jpg')] bg-cover bg-center">
+        <!-- لایهٔ تیره روی عکس -->
+        <div class="w-full h-full bg-black/85 flex items-center justify-center">
+          <!-- محتوای Subscribe اینجا -->
+          <div class="text-center" data-aos="zoom-in">
+            <h2 class="text-3xl font-semibold mb-4">Stay Updated</h2>
+            <p class="text-[#A2A2A2] mb-6">
+              Subscribe to get updates on my latest projects and front-end experiments.
+            </p>
+            <div class="flex flex-wrap gap-3 justify-center">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="px-4 py-2 rounded-md bg-transparent border border-[#55E6A5] outline-none text-sm"
+              />
+              <button class="px-6 py-2 cursor-pointer bg-[#55E6A5] text-black hover:bg-[#141C27] hover:text-white duration-300 font-semibold rounded-md">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+
+    </main>
+
+    <footer class="bg-[#02050A] border-t border-[#151C25]">
+      <div class="w-[80%] mx-auto py-8 flex flex-wrap items-center justify-between gap-4" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+       
+        <!-- Left: Contact info -->
+        <div class="text-sm text-[#A2A2A2] space-y-1">
+          <p>
+            <span class="font-semibold text-white">Email:</span>
+            <a href="mailto:sinasa2323@gmail.com"
+               class="ml-1 hover:text-[#55E6A5] duration-300">
+              sinasa2323@gmail.com
+            </a>
+          </p>
+          <p>
+            <span class="font-semibold text-white">Phone:</span>
+            <a href="tel:+989309836790"
+               class="ml-1 hover:text-[#55E6A5] duration-300">
+              +98-930-983-6790
+            </a>
+          </p>
+        </div>
+
+       <!-- Center:  -->
+       <ul class="flex flex-wrap gap-4 text-sm text-[#A2A2A2]">
+        <li><a href="#home" class="hover:text-[#55E6A5] duration-300">Home</a></li>
+        <li><a href="#about" class="hover:text-[#55E6A5] duration-300">About</a></li>
+        <li><a href="#skills" class="hover:text-[#55E6A5] duration-300">Skills</a></li>
+        <li><a href="#projects" class="hover:text-[#55E6A5] duration-300">Projects</a></li>
+        <li><a href="#contact" class="hover:text-[#55E6A5] duration-300">Contact</a></li>
+      </ul>
+
+        <!-- Right: Social icons -->
+        <div class="flex items-center gap-4">
+          <a href="https://github.com/sinasa2323" target="_blank"
+             class="text-2xl text-[#A2A2A2] hover:text-[#55E6A5] duration-300">
+            <i class="mdi mdi-github"></i>
+          </a>
+          <a href="www.linkedin.com/in/sina-sayah-784bb8398" target="_blank"
+             class="text-2xl text-[#A2A2A2] hover:text-[#55E6A5] duration-300">
+            <i class="mdi mdi-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="border-t border-[#151C25]">
+        <p class="text-center text-xs text-[#6B7280] py-4">
+          © 2025. All rights reserved.
+        </p>
+      </div>
+      
+    </footer>
+
+
+
+
+    <div id="custom-cursor"></div>
+
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 z-40 w-12 h-12 rounded-full bg-[#02050A] text-white
+               items-center justify-center shadow-lg cursor-pointer
+              
+              opacity-0 pointer-events-none"
+    >
+  <!-- Back To Top BTN-->
+  <svg
+    class="absolute inset-0 w-full h-full -rotate-90"
+    viewBox="0 0 36 36"
+  >
+    <path
+      class="text-white/10"
+      stroke="currentColor"
+      stroke-width="1"
+      fill="none"
+      d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"
+    />
+    <path
+      id="backToTopProgress"
+      class="text-white"
+      stroke="currentColor"
+      stroke-width="1"
+      fill="none"
+      stroke-linecap="round"
+      stroke-dasharray="100"
+      stroke-dashoffset="100"
+      d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"
+    />
+  </svg>
+
+  <i class="mdi mdi-chevron-up text-2xl relative"></i>
+ 
+</button>
+
+
+  </body>
+</html>
